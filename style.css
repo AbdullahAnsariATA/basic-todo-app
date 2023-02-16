@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #6262ff;
+}
+
+#main-container {
+    width: 55%;
+    height: 100%;
+    margin: 40px auto;
+    padding: 15px;
+    /* border: 1px solid red; */
+    background-color: white;
+    border:0px;
+    border-radius: 10px;
+}
+
+#user-input {
+    /* border: 1px solid darkblue; */
+    background-color: white;
+}
+
+input {
+    width: 400px;
+    height: 45px;
+    margin: 10px;
+    font-size: x-large;
+    border-color: #6262ff;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: inset;
+}
+
+input:focus {
+    background-color: cbcbff;
+}
+
+#add-button,#delete-button {
+    width: 130px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:0px;
+    padding-bottom:0px ;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 3px;
+    /* box-shadow: 5px 5px 5px black; */
+    border-style:dotted;
+    color: white;
+    background-color: #6262ff;
+    cursor: pointer;
+    
+}
+
+#add-button:active, #delete-button:active {
+    border:3px dotted black;
+    color: black;
+}
+
+#list-container {
+    /* border: 1px solid green ; */
+    background-color: white;
+    width: 727px;
+    height: 365px;
+    margin-top: 50px;
+    margin-left: 10px;
+    overflow:auto;
+}
+
+p {
+    /* border: 1px solid red; */
+    font-size: 25px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #cbcbff;
+}
+
+p button {
+    float: right;
+    width: 60px;
+    height:30px;
+    border-radius: 5px;
+    border: 3px;
+    box-shadow: 0px 0px 5px blue;
+    border-style:solid;
+    color: white;
+    background-color: #6262ff;    
+    cursor: pointer;
+}
+
+p button:active {
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 0px 5px white;
+}
+
+p>button+button {
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px white;
+    border-style:solid;
+    color: #6262ff;
+    background-color: white;  
+}
+
+p>button+button:active {
+    background-color: blue;
+    color: white;
+    box-shadow: 0px 0px 5px blue;
+}
+
+p:hover {
+    border: 2px solid gray;
+    background-color: #8888ff;
+    color: white;
+    border-radius: 20px 2px;
+}
+
+p::selection {
+    background-color: rgb(151, 239, 255);
+    color: blue;
+}
+
